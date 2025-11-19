@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(230, 228, 228);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.bloc1 {
+  padding: 30px;
+  width: 70vw;
+  border: solid white;
+  border-radius: 20px;
+  box-shadow: white 4px 4px 4px;
+  margin-left: 20vw;
+  margin-bottom: 30px;
+margin-top: 20vh;
+  transition: transform 0.3s ease;
+}
+
+.bloc1:hover {
+  transform: translateY(-8px);
+   box-shadow: white 6px 6px 6px;
+}
+
+.bloc1 h2 {
+  text-align: center;
+}
+
+.bloc1 p {
+  text-align: center;
+}
+
+.bloc2 {
+  background-color: aliceblue;
+  padding: 30px;
+  width: 60vw;
+  border: solid rgb(0, 0, 0) 2px 2px 2px;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 4px 4px 4px;
+  margin-bottom: 30px;
+  margin-left: 10vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  transition: transform 0.3s ease;
+}
+
+.bloc2:hover {
+  transform: translateY(-8px);
+  box-shadow: rgb(0, 0, 0) 6px 6px 6px;
+}
+
+.bloc2 h2 {
+  text-align: center;
+}
+
+.bloc2 p {
+  text-align: center;
+}
+
+
+.bloc3 {
+
+  padding: 30px;
+  width: 60vw;
+  border: solid white;
+  border-radius: 20px;
+  box-shadow: white 4px 4px 4px;
+  margin-left: 20vw;
+  margin-bottom: 30px;
+
+  transition: transform 0.3s ease;
+}
+
+.bloc3:hover {
+  transform: translateY(-8px);
+  box-shadow: white 6px 6px 6px;
+}
+
+.bloc3 h2 {
+  text-align: center;
+}
+
+.bloc3 p {
+  text-align: center;
+}
+
+
+.bloc4 {
+  background-color: aliceblue;
+  padding: 30px;
+  width: 70vw;
+  border: solid rgb(0, 0, 0) 2px 2px 2px;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 4px 4px 4px;
+  margin-bottom: 30px;
+  margin-left: 5vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  transition: transform 0.3s ease;
+}
+
+.bloc4:hover {
+  transform: translateY(-8px);
+  box-shadow: rgb(0, 0, 0) 6px 6px 6px;
+}
+
+.bloc4 h2 {
+  text-align: center;
+}
+
+.bloc4 p {
+  text-align: center;
+}
+
+
+.bloc5 {
+  padding: 30px;
+  width: 50vw;
+  border: solid white;
+  border-radius: 20px;
+  box-shadow: white 4px 4px 4px;
+  margin-left: 20vw;
+  margin-bottom: 30px;
+
+  transition: transform 0.3s ease;
+}
+
+.bloc5:hover {
+  transform: translateY(-8px);
+  box-shadow: white 6px 6px 6px;
+}
+
+.bloc5 h2 {
+  text-align: center;
+}
+
+.bloc5 p {
+  text-align: center;
+}
+
+
+
