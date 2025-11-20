@@ -16,17 +16,23 @@ if (!isset($_SESSION["nom"]) && !isset($_SESSION["sub"])  ) {
   <style>
   body {
     background: #000;
+
   }
+
+
 
   .bloc {
 
     background: #6e6e6eff;
     width: 40vw;
-    height: 40vh;
+    height: 35vh;
     margin-left: 25vw;
-    margin-top: 40vh;
+    margin-top: 35vh;
     border-radius: 25px;
+
   }
+
+  translate {}
 
   .bloc h3 {
     text-align: center;

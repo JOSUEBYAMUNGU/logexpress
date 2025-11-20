@@ -15,6 +15,7 @@
     <ul>
       <li><a href="index.php" class="nav_onglet">accueil</a></li>
       <li><a href="services.php" class="nav_onglet">services</a></li>
+      <li><a href="annonce.php" class="nav_onglet">annonces</a></li>
       <li><a href="contact.php" class="nav_onglet">contacts</a></li>
       <li><a href="apropos.php" class="nav_onglet">apropos</a></li>
     </ul>
