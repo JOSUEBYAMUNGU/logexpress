@@ -28,20 +28,26 @@ window.addEventListener('load', checkScroll);
 //cards.forEach(card => observer.observe(card));
 
 //activation equipe
-const lien = document.querySelector('.equipe')
-const container = document.querySelector('.section_equipe')
-const global = document.querySelector('.global')
+let lien = document.querySelector('.equipe')
+let container = document.querySelector('.section_equipe')
+let global = document.querySelector('.window_global')
+let global_fenetre = document.querySelector('.global')
 lien.addEventListener('click', () => {
+
+  global.classList.toggle('window_global_active')
+  global_fenetre.classList.add('flou')
   container.classList.toggle('section_equipe_activate')
-  global.classList.toggle('flou')
+
 }
 
 )
-// window.addEventListener('click', (e) => {
+window.addEventListener('click', (e) => {
 
-//   if (e.target == global) {
-//     container.classList.remove('section_equipe_activate')
-//     global.classList.remove('flou')
-//   }
-// })
+  if (e.target == global) {
+    global.classList.remove('window_global_active')
+    global_fenetre.classList.remove('flou')
+    container.classList.remove('section_equipe_activate')
+
+  }
+})
 

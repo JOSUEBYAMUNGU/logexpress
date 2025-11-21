@@ -160,6 +160,13 @@ background: #000;
 color: white;
 }
 
+
+
+.proprio{
+  text-align: center;
+  padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
 .annonce {
 flex-direction: column;

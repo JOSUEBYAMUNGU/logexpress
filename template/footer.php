@@ -20,9 +20,9 @@
       <div class="footer-section">
         <h3>Services</h3>
         <ul>
-          <li><a href="#">Location de maisons</a></li>
+          <li><a href=".annonce.php">Location de maisons</a></li>
           <li><a href="#">Vente de biens immobiliers</a></li>
-          <li><a href="#">Gestion et Promotion immobilière</a></li>
+          <li><a href="contact.php">Gestion et Promotion immobilière</a></li>
         </ul>
       </div>
 

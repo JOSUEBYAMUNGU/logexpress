@@ -29,7 +29,7 @@ $user=['name'=>'jack',
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>acceuil</title>
+  <title>logexpress acceuil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -54,7 +54,7 @@ $user=['name'=>'jack',
       </div>
 
     </main>
-    <button class="serviceacceuil">nos services</button>
+    <button class="serviceacceuil"><a href="services.php">nos services</a></button>
 
     <!--apparte exemple-->
     <div>
@@ -89,9 +89,9 @@ $user=['name'=>'jack',
 
       <div class="paragraphemot"> Grâce à notre système 100% connecté, vous pouvez :
         <div class="paragraphemot8contain">
-          <a href="">✔ Chercher une maison</a>
-          <a href="">✔ Planifier une visite</a>
-          <a href="">✔ Parler à un agent</a>
+          <a href="annonce.php">✔ Chercher une maison</a>
+          <a href="contact.php">✔ Planifier une visite</a>
+          <a href="contact.php">✔ Parler à un agent</a>
           <a href="">✔ Envoyer vos documents</a>
           <a href="">✔ Et même conclure votre contrat… depuis chez vous !</a>
         </div>
@@ -148,81 +148,16 @@ $user=['name'=>'jack',
     </div>
 
 
-
+    <?php
+       include('./template/footer.php')
+     ?>
   </div>
 
 
 
-
-
-
-  <div class="window_global">
-    <section class="section_equipe">
-      <h1>log express members</h1>
-      <p> Découvrez les talents et les professionnels qui rendent notre service unique.</p>
-      <div class="section_equip">
-        <!-- <div class="bloc_perso_equipe">
-        <img src="./src/images/pic josh.jpg" alt="">
-        <p>nom:LAWI BYAMUNGU JOSUE</p>
-        <P>poste:</P>
-        <p>description:</p>
-      </div> -->
-
-        <div class="container_equipe">
-
-
-          <div class="bloc_perso_container">
-            <img src="./src/images/pic josh.jpg" alt="">
-            <p>nom:LAWI BYAMUNGU JOSUE</p>
-            <P>poste:</P>
-            <p>description:</p>
-          </div>
-
-          <div class="bloc_perso_container">
-            <img src="./src/images/pic josh.jpg" alt="">
-            <p>nom:LAWI BYAMUNGU JOSUE</p>
-            <P>poste:</P>
-            <p>description:</p>
-          </div>
-
-
-          <div class="bloc_perso_container">
-            <img src="./src/images/pic josh.jpg" alt="">
-            <p>nom:LAWI BYAMUNGU JOSUE</p>
-            <P>poste:</P>
-            <p>description:</p>
-          </div>
-
-          <div class="bloc_perso_container">
-            <img src="./src/images/pic josh.jpg" alt="">
-            <p>nom:LAWI BYAMUNGU JOSUE</p>
-            <P>poste:</P>
-            <p>description:</p>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
   </div>
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
   <?php
-  include('./template/footer.php')
+  include('template/logmembers.php')
   ?>
   <script src="script.js"></script>
 
