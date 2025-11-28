@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="template/nav.css">
+  <link rel="stylesheet" href="C:\xampp\htdocs\logexpress original/template/nav.css">
   <title>Document</title>
 </head>
 
@@ -19,6 +19,11 @@
       <li><a href="contact.php" class="nav_onglet">contacts</a></li>
       <li><a href="apropos.php" class="nav_onglet">apropos</a></li>
     </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </nav>
 </body>
 

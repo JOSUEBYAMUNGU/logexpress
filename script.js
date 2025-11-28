@@ -15,6 +15,11 @@ function checkScroll() {
 window.addEventListener('scroll', checkScroll);
 window.addEventListener('load', checkScroll);
 
+
+// Hamburger menu
+function toggleMenu() {document.querySelector("ul").classList.toggle("show");
+  }
+
 // Animation simple au scroll
 // const cards = document.querySelectorAll('.service-card');
 //const observer = new IntersectionObserver(entries => {

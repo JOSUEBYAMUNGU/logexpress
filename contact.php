@@ -88,6 +88,9 @@ if ( isset($_POST['submit']) ) {
       icones
     </section>
 
+
+  </div>
+  <div>
     <?php
   include('template/footer.php')
   ?>

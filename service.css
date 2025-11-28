@@ -9,53 +9,6 @@ body {
 }
 
 
-.navbar {
-  background-color: rgb(252, 252, 252);
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  justify-content: space-between;
-  position: fixed;
-  width: 99vw;
-  z-index: 1;
-  box-shadow: #020202 2px 2px 4px;
-
-}
-
-.navbar img {
-  width: 10vw;
-  height: 10vh;
-  object-fit: cover;
-}
-
-nav {
-  border: solid white;
-  background-color: rgb(78, 50, 14);
-}
-
-ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding-top: 20px;
-  gap: 20px;
-  margin-right: 50px;
-}
-
-.nav_onglet {
-  text-decoration: none;
-  color: rgb(5, 5, 5);
-
-}
-
-.nav_onglet:hover {
-  color: rgb(255, 140, 0);
-  border: solid rgb(255, 140, 0);
-  padding: 5px;
-  border-radius: 20px;
-  background: #00000021;
-}
-
 
 
 
@@ -318,10 +271,95 @@ ul {
 
 
 @media (max-width: 767px) {
+  .services-title {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 20px 15px;
+    padding-top: 15vh;
+  }
+
+  .services-title h2 {
+    font-size: 24px;
+  }
+
+  .services-title p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+
+
+
+  
+
+
+
   .bloc8selling {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10vh;
 
   }
+
+  .paragraphe8chat {
+    /* background-color: bisque; */
+    padding: 10px;
+    font-size: 20px;
+    width: 90vw;
+    margin-top: 7vh;
+    margin-left: 5vw;
+  }
+
+  .selling {
+    width: 95vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10vw;
+    box-shadow: #000 4px 4px 4px;
+    margin-top: 5vh;
+  }
+
+  .selling:hover {
+    width: 96vw;
+    /* padding: 10px; */
+    border-radius: 20px;
+  }
+/*  */
+  .location {
+  width: 85vw;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 5vw;
+  box-shadow: #000 4px 4px 4px;
+  margin-top: 5vh;
+}
+.location:hover {
+  width: 96vw;
+  /* padding: 10px; */
+  border-radius: 20px;
+}
+.bloc8location {
+  display: flex;
+flex-direction: column;
+  justify-content: space-between;
+  margin-top: -10vh;
+  padding: 20px;
+  padding-bottom: 12vh;
+  box-shadow: #00000057 4px 4px 4px;
+  margin-bottom: -2vh;
+}
+ .paragraphe8location {
+  /* background-color: bisque; */
+ padding: 10px;
+    font-size: 20px;
+    width: 90vw;
+    margin-top: 7vh;
+    margin-left: 5vw;
+} 
 
 }

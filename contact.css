@@ -127,3 +127,62 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+    .services-title {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px 15px;
+    padding-top: 15vh;
+  }
+
+  .services-title h2 {
+    font-size: 24px;
+  }
+
+  .services-title p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .infos {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+
+  .infos-title {
+    font-size: 22px;
+  }
+
+  .infos p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form {
+    margin: 20px auto;
+    width: 80vw;
+    padding: 20px;
+  }
+
+  .form input,
+  .form textarea {
+    width: 70vw;
+    font-size: 16px;
+  }
+
+  .form button {
+    width: 80vw;
+    font-size: 16px;
+  }
+
+  .form p {
+    margin-left: 10px;
+  }
+}
+
+
+
+

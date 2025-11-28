@@ -1,0 +1,124 @@
+
+body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+background: #f5f7fa;
+color: #333;
+}
+
+.header {
+background-color: #2d89ef;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.main-content {
+padding: 30px 20px;
+max-width: 700px;
+margin: auto;
+}
+/*  */
+
+  .partner-info {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  }
+
+  .partner-info .container {
+  max-width: 900px;
+  margin: auto;
+  }
+
+  .partner-info .title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  }
+
+  .partner-info h2 {
+  font-size: 22px;
+  color: #0077cc;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  }
+
+  .partner-info p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  }
+
+  .partner-info a {
+  color: #0077cc;
+  text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+  .partner-info {
+  padding: 20px 10px;
+  }
+
+  .partner-info .title {
+  font-size: 22px;
+  }
+
+  .partner-info h2 {
+  font-size: 18px;
+  }
+  }
+/*  */
+.publier {
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.publier h2 {
+margin-bottom: 15px;
+color: #2d89ef;
+}
+
+.form-pub {
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding: 20px;
+}
+
+.form-pub input,
+.form-pub textarea {
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 16px;
+width: 100%;
+}
+
+.form-pub button {
+background-color: #2d89ef;
+color: white;
+border: none;
+padding: 12px;
+font-size: 16px;
+border-radius: 6px;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.form-pub button:hover {
+background-color: #1b5fb4;
+}
+
+@media (max-width: 600px) {
+.main-content {
+padding: 15px;
+}
+
+.publier {
+padding: 20px;
+}
+}

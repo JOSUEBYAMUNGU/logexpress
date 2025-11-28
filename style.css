@@ -70,6 +70,25 @@ body {
   margin: 0;
   opacity: 0.95;
 }
+.partenaire_bouton{
+  text-decoration: none;
+  color: whitesmoke;
+  background: #000;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 12px;
+  position: absolute;
+  top: 58vh;
+  left: 60vw;
+  cursor: pointer;
+  ;
+}
+.partenaire_bouton:hover{
+
+  background: #000000a0;
+color: bisque;
+ 
+}
 
 .serviceacceuil {
   padding: 20px 20px;
@@ -88,7 +107,7 @@ body {
   text-decoration: none;
 }
 
-.serviceacceuil:hover  {
+.serviceacceuil:hover {
   background-color: rgba(255, 255, 255, 0.25);
   color: #ffffff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -182,7 +201,7 @@ body {
   text-align: center;
   padding-top: 10vh;
   font-size: 17px;
-  width: 98vw;
+  width: 99%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-shadow: #0202024e 4px 4px 4px;
   border-radius: 20px;
@@ -273,7 +292,7 @@ body {
 
 .div_nouvelles_maisons {
   background-color: #fff;
-  width: 25VW;
+  width: 25vw;
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
@@ -364,4 +383,99 @@ body {
 
 .animate-on-scroll.active {
   animation: fade-up 0.6s ease forwards;
+}
+
+/*  */
+@media screen and (max-width: 768px) {
+  .blocgen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .partenaire_bouton{
+  text-decoration: none;
+  color: whitesmoke;
+  background: #000;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 12px;
+  position: absolute;
+  top: 58vh;
+  left: 70vw;
+  cursor: pointer;
+  ;
+}
+.serviceacceuil {
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 12px;
+  position: absolute;
+  top: 58vh;
+  left: 35vw;
+  cursor: pointer;
+  ;
+}
+
+  .bloc1,
+  .bloc2 {
+    flex-direction: column;
+    align-items: center;
+    width: 90vw !important;
+    height: auto;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .imgagentimmo,
+  .imgmainagent {
+    width: 80vw !important;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .bloc2 {
+    margin-left: 0 !important;
+  }
+
+  .para1,
+  .bloc1 p {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .paragraphemot {
+
+    margin: 2px;
+
+    width: 95%;
+
+  }
+
+  .div_nouvelles_maisons {
+
+    width: 100vw;
+    
+  }
+
+  .images {
+    width: 83vw;
+    /* margin: 15px; */
+    margin-left: 0vw;
+    height: 30vh;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .bouton_details {
+    background-color: rgb(17, 1, 49);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #020202 2px 2px 4px;
+    margin-left: 17vw;
+    width: 20vw;
+  }
 }

@@ -51,11 +51,13 @@ $user=['name'=>'jack',
           ou
           vendre une maison, notre équipe est là pour vous accompagner avec sérieux, rapidité et transparence.
         </p>
+
       </div>
 
     </main>
-    <button class="serviceacceuil"><a href="services.php">nos services</a></button>
 
+    <button class="serviceacceuil"><a href="services.php">nos services</a></button>
+    <a href="./partenaire/inscription.php" class="partenaire_bouton">commencer</a>
     <!--apparte exemple-->
     <div>
       <div class="blocgen1">
